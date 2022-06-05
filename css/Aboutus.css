@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(255, 243, 244);
+    font-family: 'Fredoka One', cursive;
+}
+
+/* Nav Bar Starts */
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navbar ul li form input {
+    margin: 0px 0px;
+    padding: 3px 0px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 24px;
+}
+
+.navbar ul li a {
+    margin: 0px 0px;
+    padding: 0px 36px;
+    text-shadow: 2px 1px black;
+    font-size: 27px;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbar ul li a:hover {
+    text-shadow: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.list a {
+    color: rgb(255, 195, 67);
+}
+
+/* Nav Bar Ends */
+
+.head {
+    text-align: center;
+    font-family: 'Merriweather', cursive;
+}
+
+.name {
+    font-family: 'Playfair Display', serif;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+.micro {
+    color: green;
+}
+
+#table {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+th,
+td {
+    border: 3px solid black;
+}
+
+th {
+    background-color: rgb(153, 153, 153);
+}
+
+tr {
+    height: 40px;
+}
+
+tr:hover {
+    background-color: rgb(217, 217, 217);
+    cursor: pointer;
+}

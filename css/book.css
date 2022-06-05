@@ -1,0 +1,108 @@
+body{
+    background: url('../img/signup.jpg') no-repeat fixed;
+    background-size: 100% 100%;
+}
+
+/* Nav Bar Starts */
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navbar ul li form input {
+    margin: 0px 0px;
+    padding: 3px 0px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 24px;
+}
+
+.navbar ul li a {
+    margin: 0px 0px;
+    padding: 0px 36px;
+    text-shadow: 2px 1px black;
+    font-size: 27px;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbar ul li a:hover {
+    text-shadow: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.list a {
+    color: rgb(255, 195, 67);
+}
+
+/* Nav Bar Ends */
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    width: 543px;
+    border: 5px solid black;
+    border-radius: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head {
+    text-align: center;
+    color: black;
+    font-family: cursive;
+}
+
+.form {
+    text-align: center;
+}
+
+.input {
+    /* color: wblack */
+    text-align: center;
+    margin: 4px 0px;
+    padding: 0px 50px;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Fredoka One', cursive;
+}
+
+#arrival{
+    padding: 0px 96px;
+}
+
+#leaving{
+    padding: 0px 96px;
+}
+.btn{
+    background-color: rgb(116, 255, 236);
+    margin: 10px 0px;
+    padding: 2px 164px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.btn:hover{
+    background-color: rgb(0, 133, 115);
+    cursor: pointer;
+}
+
+.login{
+    color: black;
+}
+
+.anchor{
+    color: orange;
+}

@@ -1,0 +1,86 @@
+    /* Header */
+    body {
+        background: url('blob:https://web.whatsapp.com/661536bf-3735-4c2d-a626-05e2e8a075c9') no-repeat fixed;
+        background-size: cover;
+    }
+
+    /* Nav Bar Starts */
+
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+
+    .navbar ul li form input {
+        margin: 0px 0px;
+        padding: 3px 0px;
+        font-size: 24px;
+        text-align: center;
+        font-family: 'Fredoka One', cursive;
+        border-radius: 24px;
+    }
+
+    .navbar ul li a {
+        margin: 0px 0px;
+        padding: 0px 36px;
+        text-shadow: 2px 1px black;
+        font-size: 27px;
+        text-decoration: none;
+        font-family: 'Fredoka One', cursive;
+    }
+
+    .navbar ul li a:hover {
+        text-shadow: none;
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+    }
+
+    .list a {
+        color: rgb(255, 195, 67);
+    }
+
+    /* Nav Bar Ends */
+
+    /* Footer */
+    .middle {
+        color: white;
+        display: block;
+        width: 700px;
+        font-size: 25px;
+        text-align: center;
+        margin: 45px 0px 0px 110px;
+    }
+
+    #heading {
+        text-shadow: 2px 3px black;
+    }
+
+    .paragraph {
+        text-shadow: 2px 1px black;
+    }
+
+    .horizantal {
+        width: 345px;
+        border: 2px solid red;
+    }
+
+    .btn {
+        margin: 4px 0px;
+        padding: 4px 130px;
+        background-color: rgb(0, 214, 186);
+        font-size: 20px;
+        border-radius: 15px;
+        font-family: 'Fredoka One', cursive;
+    }
+
+    .btn a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        background-color: rgb(0, 133, 115);
+        cursor: pointer;
+    }

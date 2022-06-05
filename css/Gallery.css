@@ -1,0 +1,74 @@
+/* Nav Bar Starts */
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navbar ul li form input {
+    margin: 0px 0px;
+    padding: 3px 0px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 24px;
+}
+
+.navbar ul li a {
+    margin: 0px 0px;
+    padding: 0px 36px;
+    font-size: 27px;
+    text-shadow: 2px 1px black;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbar ul li a:hover {
+    text-shadow: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.list a {
+    color: rgb(255, 195, 67);
+}
+
+/* Nav Bar Ends */
+
+#head{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.image{
+    text-align: center;
+    margin: 4px 15px;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+
+img:hover{
+    box-shadow: 0px 0px 20px 2px black;
+    width: 430px;
+    height: 280px;
+    transition: 1s;
+}
+
+.image:hover{
+    font-size: 25px;
+    transition: 1s;
+}
